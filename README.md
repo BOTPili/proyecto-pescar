@@ -35,9 +35,9 @@ Archivo .rar para los previos y las vistas diseñadas a mano a forma de guía.
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
+<!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
+[![Stargazers][stars-shield]][stars-url] -->
 <!-- [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
@@ -47,9 +47,9 @@ Archivo .rar para los previos y las vistas diseñadas a mano a forma de guía.
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
+  <!-- <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  </a> -->
 
   <h3 align="center">Proyecto EducArte</h3>
 
@@ -146,7 +146,7 @@ Pasos para inicializar el proyecto:
 
 1. Clonar el repo
    ```sh
-   git clone https://github.com/urielmilgron/proyecto-pescar.git
+   git clone https://github.com/BOTPili/proyecto-pescar.git
    ```
 2. Ahora ponga el proyecto donde se instalo XAMPP en la carpeta => \htdocs
 3. Para ver el proyecto online abran XAMPP y activa donde dice "Apache" y ahi les corre el servidor
