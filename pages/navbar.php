@@ -15,22 +15,25 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link text-end" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link text-end" <?php echo $pg == "inicio" ? "active" : "" ?> aria-current="page" href="index.php">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-end" href="#">Cursos</a>
+            <a class="nav-link text-end" <?php echo $pg == "cursos" ? "active" : "" ?> href="capacitaciones.php">Cursos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-end" href="#">Foro</a>
+            <a class="nav-link text-end" <?php echo $pg == "foro" ? "active" : "" ?> href="foro.php">Foro</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-end" href="#">Contacto</a>
+            <a class="nav-link text-end" <?php echo $pg == "contacto" ? "active" : "" ?> href="contacto.php">Contacto</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-end" href="#">Registrate</a>
+            <a class="nav-link text-end" <?php echo $pg == "regitsro" ? "active" : "" ?> href="registro.php">Registrate</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-end" href="#">Sobre nosotros</a>
+            <a class="nav-link text-end" <?php echo $pg == "ingresa" ? "active" : "" ?> href="ingresa.php">Ingresar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-end" <?php echo $pg == "nosotros" ? "active" : "" ?> href="nosotros.php">Sobre nosotros</a>
           </li>
         </ul>
       </div>

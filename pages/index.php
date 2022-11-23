@@ -1,3 +1,7 @@
+
+
+<?php $pg = 'inicio'  ?>
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -13,52 +17,15 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark  static-top" style=" background: rgb(0,0,0);
-    background: linear-gradient(100deg, rgba(0,0,0,1) 50%, rgba(130,59,129,1) 100%); ">
-    <div class="container-fluid">
-      <div class="d-flex align-items-center">
 
-        <a class="navbar" href="#">
-          <img src="../images/logo-educarte.png" alt="..." width="100">
-        </a>
-        <h2>EDUCART</h2>
-      </div>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link text-end" aria-current="page" href="#">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-end" href="#">Cursos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-end" href="#">Foro</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-end" href="#">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-end" href="#">Registrate</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-end" href="#">Sobre nosotros</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include_once 'navbar.php' ?>
 
-  
   <div class="container-fluid">
-    <div class="row">
+    <div id="inicio" class="row">
       <!-- d-sm-flex justify-content-sm-around flex-wrap -->
       <div class=" col-12 col-sm-12">
           <div class="col-sm-12 d-flex" >
-            <h1 class="d-inline-block" style="position: absolute ; ">EMPEZA <br>
+            <h1 class="title-home d-inline-block" style="position: absolute ; ">EMPEZA <br>
               TÚ CAMINO,
               HACELO CON
               NOSOTROS.</h1>
