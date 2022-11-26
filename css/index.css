@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#inicio-container {
+  background-image: url("../Recursos/fondo.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 630px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+#inicio-main {
+    display: flex;
+    flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  
+}
+.inicio-title-container {
+    width: 31%;
+    height: 630px;
+}
+.inicio-image{
+    width: 31%;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.inicio-redes-container{
+    width: 31%;
+    height: 630px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.inicio-subtitulos{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 15%;
+    width: 100%;
+}
+.inicio-subtitle-3{
+    font-size: 42px !important;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.inicio-subtitle-5{
+    font-size: 15px !important;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.inicio-redes{
+    width: 100%;
+    height: 31.5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inicio-redes-title-logo{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+width: 40%;
+}
+.inicio-title{
+    /* text-align: justify; */
+    margin-top: 30px ;
+    font-size: 60px !important;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+    width: 100%;
+    text-align: start;
+  }
+  .inicio-container-imagen{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.inicio-imagen{
+width: 1000px;
+}
+.inicio-copyrigth{
+margin-right: 280px;
+font-size: 12px;
+color: white;
+}

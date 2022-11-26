@@ -8,22 +8,13 @@ h2{
   font-size: 30px !important;
   color: white;
 }
-.title-home{
-  /* text-align: justify; */
-  margin-top: 20px !important;
-  font-size: 45px !important;
-  font-weight: bold;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900 !important;
-  width: 400px;
-}
-h3{
+
+/* h3{
   font-size: 40px !important;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: wheat;
-}
+} */
 p{
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -72,11 +63,7 @@ i{
   text-decoration: none;
 }
 
-#inicio{
-background-image: url('../Recursos/fondo.jpg');
-background-size: cover;
-background-position: center;
-}
+
 
 
 /* ESTILOS DE NOSOTROS */
