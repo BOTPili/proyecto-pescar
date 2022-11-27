@@ -3,7 +3,7 @@ const cursosInfantiles = [
     nombre: "Aprender el ABC ES/EN",
     descripcion: "Aprenderás  el abecedario en inglés y en español",
     imagen:
-      "https://www.mundoprimaria.com/wp-content/uploads/2020/04/abecedario.png",
+      "https://i.ytimg.com/vi/Pcnj1AHYSAs/maxresdefault.jpg",
     valoraciones: 4,
     masVisitado: true,
   },
@@ -113,25 +113,27 @@ const cursosMayores = [
   },
 ];
 
-const card = document.querySelector(".carta");
+const card = document.querySelector(".cursos-container");
 {
   /* <div style="background-image: url(${i.img}) ; background-size: cover; width: 170px; height: 172px; " class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div> */
 }
-cursosAdolescentes.forEach((i) => {
+cursosInfantiles.forEach((i) => {
   console.log(i.nombre);
   card.innerHTML += `
 
-  <div class="card" style="heigth:22rem;">
-    <img src="${i.imagen}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">${i.nombre}</h5>
-      <p class="card-text">${i.descripcion}</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
+  <article class="curso-card">
+  <div class="curso-card-image-container"><img class="curso-card-image" src=${i.imagen} alt=""></div>
+  <div class="curso-card-description-and-name-container">
+      <h5 class="curso-card-name">${i.nombre}</h5>
+      <p>${i.descripcion}</p>
   </div>
-
+  <div class="curso-card-stars-container"><img src="https://www.pngall.com/wp-content/uploads/4/5-Star-Rating-PNG-High-Quality-Image.png" alt=""></div>
+  <div class="curso-card-visited-container">
+     
+  ${i.masVisitado ? ' <div class="curso-card-visited"><h6 class="curso-card-visited-text">MÁS VISTADO</h6> </div>' : ''}    
+     
+  </div>
+</article>
   `
 });
 /*
