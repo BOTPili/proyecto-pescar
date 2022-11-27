@@ -41,8 +41,4 @@
     </div>
   </nav>
 
-<<<<<<< Updated upstream
   <script src="../navbar.js"></script>
-=======
-<script src="../navbar.js"></script>
->>>>>>> Stashed changes
