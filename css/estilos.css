@@ -51,7 +51,7 @@ i{
 }
 
 .navHeader {
-  /* background-color: blue; */
+  background-color: blue;
   width: 60%;
   display: flex;
   justify-content: space-around;
@@ -218,7 +218,7 @@ i{
 .contacto label {
    font-weight: 600;
 }
-
+/* 
 @media (max-width: 500px) {
    h1{
      font-size: 20px !important;
@@ -238,4 +238,4 @@ i{
    .logo-inicio{
      
    }
-}
+} */
