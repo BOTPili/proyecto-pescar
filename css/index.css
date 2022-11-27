@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 }
+/* No usar main */
 #inicio-main,
 #inicio-container,
 .inicio-container-imagen,
@@ -115,7 +116,8 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   #inicio-container {
-    min-height: 380px;
+    min-height: 540px !important;
+    width: 100%;
   }
   /* Navbar imagen y nombre proyecto */
   .nav-image-project {
@@ -130,6 +132,7 @@
 
   #inicio-main {
     flex-direction: column;
+
   }
 
   /* Container title */
@@ -212,7 +215,7 @@
 /* PC  */
 @media (min-width: 1024px) and (max-width: 1280px) {
   #inicio-container {
-    min-height: 380px;
+    min-height: 400px !important;
   }
   /* Navbar imagen y nombre proyecto */
   .nav-image-project {

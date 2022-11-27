@@ -20,7 +20,7 @@
 
   <?php include_once 'navbar.php' ?>
 
-  <main id="inicio-container">
+  <div id="inicio-container" >
     <div id="inicio-main">
       <section class="inicio-title-container">
         <h2 class="inicio-title">EMPEZA<br />TÚ CAMINO, HACELO CON NOSOTROS.</h2>
@@ -37,9 +37,8 @@
           <h5 class="inicio-subtitle-5">Cursos para niños, adolescentes, adultos y adultos mayores</h5>
         </div>
         <div class="inicio-redes">
-          <div class="inicio-redes-title-logo"> 
-            <img src="../images/logo-educarte.png" alt="" class="inicio-logo"
-              width="85">
+          <div class="inicio-redes-title-logo">
+            <img src="../images/logo-educarte.png" alt="" class="inicio-logo" width="85">
             <h4 class="inicio-educart-redes">EDUCART</h4>
           </div>
           <div class="inicio-redes-social">
@@ -51,7 +50,7 @@
         </div>
       </section>
     </div>
-  </main>
+  </div>
 
   <!-- <div class="container-fluid">
     <div id="inicio" class="row">
