@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg navbar-dark  static-top" style=" background: rgb(0,0,0);
     background: linear-gradient(100deg, rgba(0,0,0,1) 50%, rgba(130,59,129,1) 100%); ">
     <div class="container-fluid">
@@ -40,4 +41,8 @@
     </div>
   </nav>
 
+<<<<<<< Updated upstream
   <script src="../navbar.js"></script>
+=======
+<script src="../navbar.js"></script>
+>>>>>>> Stashed changes
