@@ -23,7 +23,7 @@
             <div class="">
                 <div class="d-flex flex-column text-center my-4 ms-5">
                     <h1 class="title-contact ">CONTACTO</h1>
-                    <h3 class="d-inline-block">¿Tenes alguna duda? Contáctanos.</h3>
+                    <h3 class="d-inline-block" style="color:white;">¿Tenes alguna duda? Contáctanos.</h3>
                 </div>
                 <div class="d-flex justify-content-around">
                     <div class="d-flex flex-column align-items-center">

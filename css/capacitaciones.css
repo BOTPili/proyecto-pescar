@@ -57,7 +57,7 @@
 /* Container del texto de la categoría */
 .cursos-category-container {
   margin-top: 100px;
-  width: 100%;
+  width: 91.5%;
   height: 10%;
   display: flex;
   justify-content: flex-start;
@@ -73,13 +73,14 @@
 }
 /* Container de las cards de cursos */
 .cursos-container {
+
   width: 95%;
   min-height: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 /* Card de la data de cursos*/
 .curso-card {
@@ -88,11 +89,12 @@
   background-color: #813B80;
   width: 26%;
   height: 420px;
-  border-radius: 3px;
+  border-radius: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.326);
 }
 /* Container de la imagen*/
 .curso-card-image-container {
@@ -128,6 +130,7 @@
 }
 /* Descripción del curso */
 .curso-card-description-and-name-container p {
+  text-decoration: none;
     min-height:25px;
     width: 85%;
     font-family: "Roboto", sans-serif;

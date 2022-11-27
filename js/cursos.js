@@ -121,7 +121,7 @@ cursosInfantiles.forEach((i) => {
   console.log(i.nombre);
   card.innerHTML += `
 
-  <article class="curso-card">
+  <a class="curso-card" href="ingresa.php" style="text-decoration:none;">
   <div class="curso-card-image-container"><img class="curso-card-image" src=${i.imagen} alt=""></div>
   <div class="curso-card-description-and-name-container">
       <h5 class="curso-card-name">${i.nombre}</h5>
@@ -133,7 +133,7 @@ cursosInfantiles.forEach((i) => {
   ${i.masVisitado ? ' <div class="curso-card-visited"><h6 class="curso-card-visited-text">MÁS VISTADO</h6> </div>' : ''}    
      
   </div>
-</article>
+</a>
   `
 });
 /*
