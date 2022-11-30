@@ -1,73 +1,252 @@
-.foro-main-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center ;
-    flex-direction: column;
+* {
+  text-decoration: none !important;
+  margin: 0;
+}
+/*Color categoría de response => E078DB */
+.foro-main-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 /*Main*/
-.foro-main{
+.foro-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 85%;
+}
+
+/* Container del title */
+/* Container del title */
+.foro-container-title {
+  display: flex;
+  width: 95%;
+  align-items: center;
+  height: 180px;
+  justify-content: center;
+}
+.foro-title {
+  padding: 0;
+  margin: 0;
+  color: #250f48;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 55px !important;
+}
+/* Fin container title */
+/* Fin container title */
+
+/* Container botones y preguntas*/
+/* Container botones y preguntas*/
+.foro-continer-question-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+/*Container row botones*/
+.foro-container-buttons {
+  width: 100%;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+}
+/* container boton de crear debate*/
+.foro-container-create-question {
+  width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* Botón de crear debate */
+.foro-create-question-button {
+  background-color: #c985c8 !important;
+  color: white;
+  width: 85%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+}
+/* Container botones, de solucionado o no*/
+.foro-container-buttons-solutions {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.foro-container-find {
+  position: relative;
+  width: 50%;
+}
+.foro-find {
+  box-sizing: border-box;
+  color: #191919;
+  padding: 10px 10px 10px 40px;
+  width: 100%;
+  height: 70%;
+  background-color: #c985c8;
+  border-radius: 5px;
+  border: none;
+}
+.foro-find::placeholder {
+  color: white;
+}
+.foro-find-icon {
+  color: #ffffff;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.foro-container-buttons-find-filters {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foro-buttons-solutions-all {
+  background-color: #c985c8;
+  color: white;
+  width: 15%;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.315);
+}
+.foro-solutions-resolve {
+  margin: 0;
+  width: 25%;
+}
+.foro-buttons-filter {
+  width: 25%;
+}
+.foro-solutions-not-resolve {
+}
+.foro-container-response-counter {
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foro-response-counter {
+  background-color: #c44ac6;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width:20%;
+  height: 25px;
+  border-radius: 5px;
+}
+.foro-container-question{
+width: 100%;
+height: 8rem;
+margin-top: 20px;
+margin-bottom: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+border: 1px solid #000;
+}
+.foro-question{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.foro-question-user-resolve{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.foro-question-check-icon-container{
+    background-color: #7dd16c;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 10px 0px 0px 10px;
+}
+.foro-question-user{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.foro-question-user h3{
+    font-family: 'Roboto', sans-serif;
+}
+.foro-question-user-image{
+width: 25%;
+border-radius: 100%;
+}
+.foro-question-container{
+    margin: 0 !important;
+    width: 55%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 85%;
 }
-
-
-/* Container del title */
-/* Container del title */
-.foro-container-title{
-    display: flex;
-    width: 95%;
-    align-items: center;
-    height: 180px;
-    justify-content: center;
+.foro-question-container h6{
+    font-family: 'Roboto', sans-serif;
 }
-.foro-title{
-    padding: 0;
-    margin: 0;
-    color: #250F48;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 55px !important;
-}
-/* Fin container title */
-/* Fin container title */
-
-
-/* Container botones y preguntas*/
-/* Container botones y preguntas*/
-.foro-continer-question-buttons{
-
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-width: 100%;
-}
-/*Container row botones*/
-.foro-container-buttons{
-    background-color: aqua;
+.foro-question-answer{
     width: 100%;
+    font-family: 'Roboto', sans-serif;  
+    text-align:start;
+}
+.foro-question-container-category{
+    width: 20%;
+    height: 100%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-/* container boton de crear debate*/
-.foro-container-create-question{
-    background-color: rgb(154, 154, 154);
-    width: 15%;
+.foro-question-container-category-text{
+    font-family: 'Roboto', sans-serif;  
+    font-size: 22px;
 }
-/* Botón de crear debate */
-.foro-create-question-button{
-
+.foro-question-container-category-text-result{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-/* Container botones, de solucionado o no*/
-.foro-container-buttons-solutions{
-width: 50%;
-background-color: aliceblue;
-}
-.foro-container-buttons-find-filters{
-    width: 35%;
-    background-color: blue;
+.foro-question-category-text-result{
+    font-family: 'Roboto', sans-serif; 
+    font-size: 22px;
+    background-color: #c985c8;
+    color: white;
+    border-radius: 5px;
+    width: 65%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
