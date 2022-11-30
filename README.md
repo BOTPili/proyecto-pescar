@@ -51,7 +51,7 @@ Archivo .rar para los previos y las vistas diseñadas a mano a forma de guía.
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a> -->
 
-  <h3 align="center">Proyecto EducArte</h3>
+  <h3 align="center">Proyecto EDUCART</h3>
 
   <p align="center">
     Descripción de como inicializar el proyecto
