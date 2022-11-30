@@ -151,6 +151,10 @@
   height: 25px;
   border-radius: 5px;
 }
+.foro-questions-container{
+width: 100%;
+min-height: 700px;
+}
 .foro-container-question{
 width: 100%;
 height: 8rem;
@@ -198,9 +202,11 @@ border: 1px solid #000;
 }
 .foro-question-user h3{
     font-family: 'Roboto', sans-serif;
+    max-width: 70%;
+    font-size: 22px;
 }
 .foro-question-user-image{
-width: 25%;
+max-width: 25%;max-width: 25%;
 border-radius: 100%;
 }
 .foro-question-container{
@@ -217,7 +223,7 @@ border-radius: 100%;
 .foro-question-answer{
     width: 100%;
     font-family: 'Roboto', sans-serif;  
-    text-align:start;
+    text-align:center;
 }
 .foro-question-container-category{
     width: 20%;
@@ -240,11 +246,11 @@ border-radius: 100%;
 }
 .foro-question-category-text-result{
     font-family: 'Roboto', sans-serif; 
-    font-size: 22px;
+    font-size: 20px;
     background-color: #c985c8;
     color: white;
     border-radius: 5px;
-    width: 65%;
+    min-width: 80%;
     height: 80%;
     display: flex;
     justify-content: center;
