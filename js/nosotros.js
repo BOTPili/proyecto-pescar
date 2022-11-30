@@ -34,7 +34,7 @@ const card = document.querySelector('.carta');
 user.forEach( (i) => {
     console.log(i.nombre);
     card.innerHTML += `   
-    <div class="my-2 col-10 col-sm-3  " >
+    <div class="my-2 col-6 col-sm-3  " >
     <div class="card mx-sm-4 shadow col-12" style=" width: 17rem; height: 25rem ; ">
     <img class="img-user card-img-top mx-5 mt-4 rounded-circle" src="../images/${i.img}" alt="" >
     <div class="card-body text-center">
