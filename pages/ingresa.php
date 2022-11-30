@@ -16,10 +16,10 @@
 <?php include_once 'navbar.php' ?>
 <div class="container-fluid">
     <div id="login" class="row" style="height: 100vh;">
-    <div class="d-sm-flex justify-content-sm-center ">
-                <form style="height:550px ;" class="bg-white col-8 col-sm-4 my-4 px-4 shadow rounded">
+    <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
+                <form style="height:550px ;" class="bg-white col-9 col-sm-4 my-4 px-4 shadow rounded">
                     
-                    <div class="d-sm-flex justify-content-center " >
+                    <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center " >
                         <img class="img-fluid d-inline-block" src="../images/logo-educarte.png" alt="" width="180">
                     </div>
                     <div class="mb-5" >

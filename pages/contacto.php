@@ -36,7 +36,7 @@
                         </div>
                     </div>
 
-                    <form class="bg-white col-12 col-sm-4 p-3 shadow rounded">
+                    <form class="bg-white col-7 col-sm-4 p-3 shadow rounded">
                         <div class="mb-3">
                             <label for="exampleInputEmail1" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="exampleInputEmail1"
@@ -59,7 +59,7 @@
                         </div>
                     </form>
 
-                    <div class="d-flex flex-column mt-5">
+                    <div class="d-sm-flex flex-sm-column mt-5">
                         <p>Nuestras redes sociales</p>
                         <div class="my-2">
                             <a class="d-flex align-items-center nav-link" href=""><i class="fa-brands fa-facebook"></i>

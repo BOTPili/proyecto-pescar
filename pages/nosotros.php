@@ -28,7 +28,7 @@
                 <div></div> -->
             </div>
 
-            <div class="carta row row-cols-1 row-cols-md-7">
+            <div class="carta row row-cols-md-7">
 
                 <!-- <div class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div>
                 <div class="card-body">

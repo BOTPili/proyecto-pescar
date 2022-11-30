@@ -17,10 +17,10 @@
     <?php include_once 'navbar.php' ?>
     <div class="container-fluid">
         <div id="registro" class="row" style="height: 100vh;">
-            <div class="d-sm-flex justify-content-sm-center ">
-                <form class="bg-white col-8 col-sm-4 my-4 py-1 px-4 shadow rounded">
+            <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
+                <form class="bg-white col-9 col-sm-4 my-4 py-1 px-4 shadow rounded">
 
-                    <div class="d-sm-flex justify-content-center ">
+                    <div class="d-sm-flex  d-flex justify-content-center justify-content-sm-center ">
                         <img class="img-fluid d-inline-block" src="../images/logo-educarte.png" alt="" width="180">
                     </div>
                     <p class="">Bienvenido! <br> Acá podés registrarte a la página, <br> solo tenes que completar tus
