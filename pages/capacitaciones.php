@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="stylesheet" href="../css/capacitaciones.css">
+    <link href="../css/fontawesome/css/fontawesome.css" rel='stylesheet' />
+    <link href="../css/fontawesome/css/all.css" rel='stylesheet' />
     <link rel="shortcut icon" href="../images/logo-educarte.png" type="image/x-icon">
     <title>Capacitaciones Gratuitas</title>
 </head>
 
 <body>
-    <?php include_once 'navbar.php' ?>
+    <?php include_once 'navs/navbar.php' ?>
     <main id="cursos">
         <section class="cursos-title-container">
             <p>CAPACITACIONES</p>
@@ -24,14 +26,14 @@
         <section class="cursos-cards-and-category-container">
             <div class="cursos-category-container">
                 <h3 class="cursos-category">Cursos infantiles</h3>
-</div>
+            </div>
             <section class="cursos-container">
-         
+
             </section>
         </section>
+        <?php include_once 'navs/footer.php' ?>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="../js/cursos.js"></script>
 </body>
 
