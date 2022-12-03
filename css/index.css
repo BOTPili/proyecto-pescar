@@ -116,7 +116,7 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   #inicio-container {
-    min-height: 540px !important;
+    /* min-height: 540px !important; */
     width: 100%;
   }
   /* Navbar imagen y nombre proyecto */
