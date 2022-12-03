@@ -41,4 +41,4 @@
     </div>
   </nav>
 
-  <script src="../navbar.js"></script>
+<!-- <script src="../navbar.js"></script> -->

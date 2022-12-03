@@ -89,5 +89,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
   crossorigin="anonymous"></script>
-<script src="../navbar.js"></script>
+<!-- <script src="../navbar.js"></script> -->
+
 </html>

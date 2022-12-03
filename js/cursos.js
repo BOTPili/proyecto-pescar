@@ -1,4 +1,4 @@
-const cursosInfantiles = [
+const cursos = [
   {
     nombre: "Aprender el ABC ES/EN",
     descripcion: "Aprenderás  el abecedario en inglés y en español",
@@ -6,6 +6,7 @@ const cursosInfantiles = [
       "https://www.mundoprimaria.com/wp-content/uploads/2020/04/abecedario.png",
     valoraciones: 4,
     masVisitado: true,
+    category:"infantiles"
   },
 
   {
@@ -14,6 +15,7 @@ const cursosInfantiles = [
     imagen: "https://i.ytimg.com/vi/WhXZaxeZ5sg/hqdefault.jpg",
     valoraciones: 5,
     masVisitado: true,
+    category:"infantiles"
   },
 
   {
@@ -23,10 +25,8 @@ const cursosInfantiles = [
       "https://www.proferecursos.com/wp-content/uploads/Aprender-los-colores.jpg",
     valoraciones: 4,
     masVisitado: false,
+    category:"infantiles"
   },
-];
-
-const cursosAdolescentes = [
   {
     nombre: "Educación Sexual",
     descripcion:
@@ -35,6 +35,7 @@ const cursosAdolescentes = [
       "https://www.unesco.org/sites/default/files/educacionsexualintegral.jpg",
     valoraciones: 4,
     masVisitado: true,
+    category:"adolescentes"
   },
   {
     nombre: "Test vocacional",
@@ -44,6 +45,7 @@ const cursosAdolescentes = [
       "https://elcomercio.pe/resizer/4LtqMr5Cj2SPQh9161iz2u2pBmc=/580x330/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/AC2JUANBCBHNNA5TEXIBRQUQVE.jpg",
     valoraciones: 4,
     masVisitado: true,
+    category:"adolescentes"
   },
   {
     nombre: "Recursos para estudiar",
@@ -53,10 +55,8 @@ const cursosAdolescentes = [
       "https://www.mentesliberadas.com/wp-content/uploads/2012/08/estudiar-un-texto-1024x683.jpg",
     valoraciones: 5,
     masVisitado: false,
+    category:"adolescentes"
   },
-];
-
-const cursosAdultos = [
   {
     nombre: "Introducción a Gmail",
     descripcion:
@@ -65,6 +65,7 @@ const cursosAdultos = [
       "https://i.blogs.es/16b956/gmail-nuevo-logo-google-workspace/1366_2000.jpg",
     valoraciones: 5,
     masVisitado: false,
+    category:"adultos"
   },
   {
     nombre: "Como armar un CV",
@@ -73,6 +74,7 @@ const cursosAdultos = [
       "https://media.ambito.com/p/c2c0021fa22839bb29dc0feea4cc69d3/adjuntos/239/imagenes/040/055/0040055412/curriculum-vitaejpg.jpg",
     valoraciones: 4,
     masVisitado: true,
+    category:"adultos"
   },
   {
     nombre: "Como usar Linkedin",
@@ -82,10 +84,8 @@ const cursosAdultos = [
     video: "https://youtu.be/CmC2NVzoPsI",
     valoraciones: 5,
     masVisitado: false,
+    category:"adultos"
   },
-];
-
-const cursosMayores = [
   {
     nombre: "Creación de mail",
     descripcion: "Aprenderás a como crear un mail",
@@ -93,6 +93,7 @@ const cursosMayores = [
       "https://guadalinfoalgarrobo.com/wp-content/uploads/2022/01/ejercicios-practicos-correo-electronico.png",
     valoraciones: 5,
     masVisitado: false,
+    category:"adultos mayores"
   },
   {
     nombre: "Aprender a usar un Celular",
@@ -102,6 +103,7 @@ const cursosMayores = [
       "https://infochicos.com.ar/wp-content/uploads/2019/08/Facebook-1-22-770x578.png",
     valoraciones: 5,
     masVisitado: false,
+    category:"adultos mayores"
   },
   {
     nombre: "Aprender a usar WhatsApp",
@@ -110,29 +112,51 @@ const cursosMayores = [
       "https://elcomercio.pe/resizer/tCHp5GNCWCE-LHeUkGbDkKel94M=/620x0/smart/filters:format(jpeg):quality(75)/arc-anglerfish-arc2-prod-elcomercio.s3.amazonaws.com/public/CZOCRMX35RA2LOUVVDK4F24DEQ.jpg",
     valoraciones: 5,
     masVisitado: true,
+    category:"adultos mayores"
   },
 ];
 
-const card = document.querySelector(".carta");
+const card = document.querySelector(".cursos-cards-and-category-container");
 {
   /* <div style="background-image: url(${i.img}) ; background-size: cover; width: 170px; height: 172px; " class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div> */
 }
-cursosAdolescentes.forEach((i) => {
-  console.log(i.nombre);
-  card.innerHTML += `
-
-  <div class="card" style="heigth:22rem;">
-    <img src="${i.imagen}" class="card-img-top" alt="...">
-    <div class="card-body">
-      <h5 class="card-title">${i.nombre}</h5>
-      <p class="card-text">${i.descripcion}</p>
-    </div>
-    <div class="card-footer">
-      <small class="text-muted">Last updated 3 mins ago</small>
-    </div>
-  </div>
-
+let categoryCursos;
+let contador = 0;
+const titleFirst = (category) => {
+  console.log(contador)
+  console.log(category)
+  if(contador == 0){
+    contador++
+   return `<h3 class="cursos-category">Cursos ${category}</h3> `
+  } else if (contador == 2){
+    contador = -1;
+  }
+  contador++
+  return ''
+}
+cursos.forEach((i) => {
+  card.innerHTML += 
   `
+   <div class="cursos-category-container">
+  ${titleFirst(i.category) }
+</div>
+<section class="cursos-container">
+<a class="curso-card" href="ingresa.php" style="text-decoration:none;">
+<div class="curso-card-image-container"><img class="curso-card-image" src=${i.imagen} alt=""></div>
+<div class="curso-card-description-and-name-container">
+    <h5 class="curso-card-name">${i.nombre}</h5>
+    <p>${i.descripcion}</p>
+</div>
+<div class="curso-card-stars-container"><img src="https://www.pngall.com/wp-content/uploads/4/5-Star-Rating-PNG-High-Quality-Image.png" alt=""></div>
+<div class="curso-card-visited-container">
+   
+${i.masVisitado ? ' <div class="curso-card-visited"><h6 class="curso-card-visited-text">MÁS VISTADO</h6> </div>' : ''}    
+   
+</div>
+</a>
+</section>`
+
+
 });
 /*
 `   
