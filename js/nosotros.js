@@ -30,7 +30,6 @@ const user = [
 ]
 
 const card = document.querySelector('.carta');
-{/* <div style="background-image: url(${i.img}) ; background-size: cover; width: 170px; height: 172px; " class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div> */}
 user.forEach( (i) => {
     console.log(i.nombre);
     card.innerHTML += `   
@@ -49,15 +48,3 @@ user.forEach( (i) => {
     </div>
     </div> `
 } )
-
-
-
-
-
-
-//   <div class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div>
-//   <div class="card-body">
-//       <h5 class="card-title">Card title</h5>
-//       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-//       <a href="#" class="btn btn-primary">Go somewhere</a>
-//   </div>

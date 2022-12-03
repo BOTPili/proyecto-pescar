@@ -13,7 +13,7 @@
   <link rel="shortcut icon" href="../images/logo-educarte.png" type="image/x-icon">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../css/index.css" />
-  <title>Proyecto Pescar</title>
+  <title>EDUCART</title>
 </head>
 
 <body>
