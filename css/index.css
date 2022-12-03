@@ -121,12 +121,11 @@
   }
   /* Navbar imagen y nombre proyecto */
   .nav-image-project {
-    width: 40px;
+    width: 100px;
   }
   .nav-name-project {
-    font-size: 12px !important;
     color: white;
-    margin-top: 10px;
+    
   }
   /*  Fin navbar img y name */
 

@@ -20,7 +20,7 @@
     <div id="registro" class="container-fluid">
         <div class="row">
             <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
-                <form class="bg-white col-9 col-sm-4 my-3 py-1 px-4 shadow rounded" action="registro.php" method="POST">
+                <form class="bg-white col-12 col-sm-4 my-3 py-1 px-4 shadow rounded" action="registro.php" method="POST">
 
                     <div class="d-sm-flex  d-flex justify-content-center justify-content-sm-center ">
                         <img class="img-fluid d-inline-block" src="../images/logo-educarte.png" alt="" width="180">
