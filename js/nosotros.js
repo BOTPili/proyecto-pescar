@@ -17,7 +17,7 @@ const user = [
         'nombre': 'Dante Roldan',
         'nombreTwo': 'Dante Roldan',
         'edad':'21 años',
-        'descripcion': 'Desarrollador Front-end/ Estudiante Universitario',
+        'descripcion': 'Desarrollador Web Full Stack / Estudiante Universitario',
         'img': '../images/dante.jfif'
     },
     {
@@ -30,11 +30,10 @@ const user = [
 ]
 
 const card = document.querySelector('.carta');
-{/* <div style="background-image: url(${i.img}) ; background-size: cover; width: 170px; height: 172px; " class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div> */}
 user.forEach( (i) => {
     console.log(i.nombre);
     card.innerHTML += `   
-    <div class="my-2 col-6 col-sm-3  " >
+    <div class="my-2 mx-4 mx-sm-1 mx-md-1 mx-lg-0 col-12 col-sm-5 col-md-5 col-lg-3  " >
     <div class="card mx-sm-4 shadow col-12" style=" width: 17rem; height: 25rem ; ">
     <img class="img-user card-img-top mx-5 mt-4 rounded-circle" src="../images/${i.img}" alt="" >
     <div class="card-body text-center">
@@ -49,15 +48,3 @@ user.forEach( (i) => {
     </div>
     </div> `
 } )
-
-
-
-
-
-
-//   <div class="mx-5 mt-4 img-user card-img-top rounded-circle" ></div>
-//   <div class="card-body">
-//       <h5 class="card-title">Card title</h5>
-//       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-//       <a href="#" class="btn btn-primary">Go somewhere</a>
-//   </div>
