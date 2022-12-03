@@ -2,7 +2,6 @@
 * {
   margin: 0;
   padding: 0;
-  
 }
 h2{
   font-size: 30px !important;
@@ -52,7 +51,7 @@ i{
 }
 
 .navHeader {
-  /* background-color: blue; */
+  background-color: blue;
   width: 60%;
   display: flex;
   justify-content: space-around;
@@ -170,10 +169,7 @@ i{
 }
 /* ESTILOS DE CURSOS */
 
-#cursos{
-  background-image: url('../Recursos/fondo-registro-inicio.jpg');
-  background-size: cover ;
-}
+
 
 /* ESTILOS DE CONTACTO */
 
@@ -220,23 +216,16 @@ i{
    font-weight: 600;
 }
 
-@media (max-width: 500px) {
-   h1{
-     font-size: 20px !important;
-     width: 150px ; 
-   }
+@media (max-width: 600px) {
 
-   h3{
-      font-size: 14px !important ;
-      width: 150px ;
-      position: relative !important;
-   }
-
-   .row {
-    height: 100vh;
-   }
-
-   .logo-inicio{
-     
-   }
+#nosotros .card{
+  width: 15rem !important;
+  height: 25rem !important;
 }
+
+
+
+
+
+}
+

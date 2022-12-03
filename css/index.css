@@ -2,97 +2,319 @@
   margin: 0;
   padding: 0;
 }
+/* No usar main */
+#inicio-main,
+#inicio-container,
+.inicio-container-imagen,
+.inicio-image,
+.inicio-redes-container,
+.inicio-redes,
+.inicio-redes-title-logo {
+  display: flex;
+  justify-content: center;
+}
+.inicio-container-imagen,
+.inicio-image,
+.inicio-redes,
+.inicio-redes-title-logo {
+  align-items: center;
+}
+
+/* Main */
 #inicio-container {
   background-image: url("../Recursos/fondo.jpg");
   background-size: cover;
   background-position: center;
   width: 100%;
-  min-height: 630px;
-  display: flex;
-  justify-content: center;
+  min-height: 680px;
   align-items: flex-start;
-
 }
 #inicio-main {
-    display: flex;
-    flex-direction: row;
+  flex-direction: row;
   width: 100%;
   justify-content: space-evenly;
-  
 }
+
+/* Container del title */
 .inicio-title-container {
-    width: 31%;
-    height: 630px;
+  width: 31%;
+  height: 630px;
 }
-.inicio-image{
-    width: 31%;
-    height: 630px;
-    display: flex;
-    justify-content: center;
+.inicio-title {
+  /* text-align: justify; */
+  margin-top: 30px;
+  font-size: 75px !important;
+
+  position: relative;
+  font-weight: bold;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 1000;
+  width: 550px;
+  text-align: start;
+}
+/* Fin container del title */
+
+/* Container imagen y copyright*/
+.inicio-container-imagen {
+  width: 100%;
+  height: 85%;
+}
+/* Container solo imagen */
+.inicio-image {
+  width: 31%;
+  height: 630px;
+  flex-direction: column;
+}
+/* Imagen */
+.inicio-imagen {
+  width: 1200px;
+}
+/* Texto inicio-copyrigth */
+.inicio-copyrigth {
+  margin-right: 320px;
+  font-size: 12px;
+  color: white;
+}
+/* Fin container imagen y copyright */
+
+/* Inicio container redes */
+.inicio-redes-container {
+  width: 31%;
+  height: 630px;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.inicio-subtitulos {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 15%;
+  width: 100%;
+}
+.inicio-subtitle-3 {
+  font-size: 42px !important;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.inicio-subtitle-5 {
+  font-size: 15px !important;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+.inicio-redes {
+  width: 100%;
+  height: 28%;
+  justify-content: space-around;
+}
+.inicio-redes-title-logo {
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40%;
+}
+/* Fin container inicio redes */
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #inicio-container {
+    min-height: 540px !important;
+    width: 100%;
+  }
+  /* Navbar imagen y nombre proyecto */
+  .nav-image-project {
+    width: 40px;
+  }
+  .nav-name-project {
+    font-size: 12px !important;
+    color: white;
+    margin-top: 10px;
+  }
+  /*  Fin navbar img y name */
+
+  #inicio-main {
+    flex-direction: column;
+
+  }
+
+  /* Container title */
+  .inicio-title-container {
+    height: 180px;
+    width: 100%;
     align-items: center;
-    flex-direction: column;
-}
-.inicio-redes-container{
-    width: 31%;
-    height: 630px;
-    display: flex;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-.inicio-subtitulos{
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    height: 15%;
+  }
+  .inicio-title {
+    font-size: 25px !important;
+    width: 200px;
+    margin-left: 25px;
+  }
+  /* Fin Container title */
+
+  /* Container logo y copyright */
+  .inicio-image {
     width: 100%;
-}
-.inicio-subtitle-3{
-    font-size: 42px !important;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-.inicio-subtitle-5{
-    font-size: 15px !important;
-    font-family: 'Roboto', sans-serif;
-    color: white;
-}
-.inicio-redes{
+    margin-top: 0;
+    height: 200px;
+  }
+  .inicio-imagen {
+    width: 300px;
+  }
+  .inicio-copyrigth {
+    width: 150px;
+    margin-right: 0px;
+  }
+  /* Fin container logo y copy */
+
+  /* Container redes */
+  .inicio-redes-container {
     width: 100%;
-    height: 31.5%;
+    height: 150px;
+    justify-content: space-evenly;
+  }
+  .inicio-subtitulos {
+    display: flex;
+    height: 40%;
+    width: 100%;
+  }
+  .inicio-subtitle-3 {
+    font-size: 22px !important;
+  }
+  .inicio-subtitle-5 {
+    font-size: 12px !important;
+  }
+  .inicio-redes {
+    width: 100%;
+    height: 10%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.inicio-redes-title-logo{
-display: flex;
-flex-direction: row;
-align-items: center;
-justify-content: space-around;
-width: 40%;
-}
-.inicio-title{
-    /* text-align: justify; */
-    margin-top: 30px ;
-    font-size: 60px !important;
-    font-weight: bold;
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 1000;
-    width: 100%;
-    text-align: start;
   }
-  .inicio-container-imagen{
-    width: 100%;
-    height: 70%;
+  .inicio-educart-redes {
+    font-size: 15px !important;
+  }
+  .inicio-logo {
+    width: 60px;
+  }
+  .inicio-redes-title-logo {
     display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+
+    width: 40%;
+  }
+  .inicio-redes-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
   }
-.inicio-imagen{
-width: 1000px;
+  .inicio-redes-social a i {
+    width: 32px;
+  }
 }
-.inicio-copyrigth{
-margin-right: 280px;
-font-size: 12px;
-color: white;
+
+/* PC  */
+@media (min-width: 1024px) and (max-width: 1280px) {
+  #inicio-container {
+    min-height: 400px !important;
+  }
+  /* Navbar imagen y nombre proyecto */
+  .nav-image-project {
+    width: 72px;
+  }
+  .nav-name-project {
+    font-size: 18px !important;
+    color: white;
+    margin-top: 10px;
+  }
+  /*  Fin navbar img y name */
+
+  #inicio-main {
+    flex-direction: row;
+  }
+
+  /* Container title */
+  .inicio-title-container {
+    height: 580px;
+    width: 100%;
+    align-items: center;
+  }
+  .inicio-title {
+    font-size: 30px !important;
+    width: 200px;
+    margin-left: 25px;
+    position: absolute;
+  }
+  /* Fin Container title */
+
+  /* Container logo y copyright */
+  .inicio-image {
+    height: 580px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .inicio-imagen {
+    width: 800px;
+    position: absolute;
+  }
+  .inicio-copyrigth {
+    width: 150px;
+    margin-right: 50px;
+    margin-top: 370px;
+    margin-right: 170px;
+    font-size: 10px !important;
+    position: absolute;
+  }
+  /* Fin container logo y copy */
+
+  /* Container redes */
+  .inicio-redes-container {
+    width: 100%;
+    height: 580px;
+    justify-content: flex-end;
+  }
+  .inicio-subtitulos {
+    display: flex;
+    height: 10%;
+    width: 100%;
+  }
+  .inicio-subtitle-3 {
+    font-size: 22px !important;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .inicio-subtitle-5 {
+    font-size: 12px !important;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .inicio-redes {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .inicio-educart-redes {
+    font-size: 15px !important;
+  }
+  .inicio-logo {
+    width: 60px;
+  }
+  .inicio-redes-title-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+  }
+  .inicio-redes-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .inicio-redes-social a i {
+    width: 32px;
+  }
 }

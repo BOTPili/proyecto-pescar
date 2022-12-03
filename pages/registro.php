@@ -1,4 +1,4 @@
-<?php $pg = 'registro'  ?>
+<?php $pg = 'registro' ?>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -17,13 +17,14 @@
     <?php include_once 'navbar.php' ?>
     <div class="container-fluid">
         <div id="registro" class="row" style="height: 100vh;">
-            <div class="d-sm-flex justify-content-sm-center ">
-                <form class="bg-white col-8 col-sm-4 my-4 py-1 px-4 shadow rounded">
-                    
-                    <div class="d-sm-flex justify-content-center " >
+            <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
+                <form class="bg-white col-9 col-sm-4 my-4 py-1 px-4 shadow rounded">
+
+                    <div class="d-sm-flex  d-flex justify-content-center justify-content-sm-center ">
                         <img class="img-fluid d-inline-block" src="../images/logo-educarte.png" alt="" width="180">
                     </div>
-                    <p class="" >Bienvenido! <br> Acá podés registrarte a la página, <br> solo tenes que completar tus datos!</p>
+                    <p class="">Bienvenido! <br> Acá podés registrarte a la página, <br> solo tenes que completar tus
+                        datos!</p>
 
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Nombre</label>
@@ -51,17 +52,19 @@
                     </div>
                     <div class="d-sm-flex justify-content-sm-center mb-3 form-check">
                         <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                        <label class="mx-1 form-check-label" for="exampleCheck1">Acepto los terminos de condiciones</label>
+                        <label class="mx-1 form-check-label" for="exampleCheck1">Acepto los terminos de
+                            condiciones</label>
                     </div>
                     <div class="d-flex flex-column align-items-center">
                         <button type="submit" class="btn btn-violet px-5 ">REGISTRATE</button>
-                        <p class="my-2" >Ya tienes cuenta? <a href="ingresa.php">Ingresa aqui</a> </p>
+                        <p class="my-2">Ya tienes cuenta? <a href="ingresa.php">Ingresa aqui</a> </p>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

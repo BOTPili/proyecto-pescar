@@ -3,7 +3,7 @@ const cursos = [
     nombre: "Aprender el ABC ES/EN",
     descripcion: "Aprenderás  el abecedario en inglés y en español",
     imagen:
-      "https://www.mundoprimaria.com/wp-content/uploads/2020/04/abecedario.png",
+      "https://i.ytimg.com/vi/Pcnj1AHYSAs/maxresdefault.jpg",
     valoraciones: 4,
     masVisitado: true,
     category:"infantiles"
