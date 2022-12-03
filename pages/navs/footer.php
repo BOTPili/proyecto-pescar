@@ -1,4 +1,4 @@
-<footer id="footer" class="d-flex justify-content-center aling-items-center">
+<footer id="footer" class="d-flex mt-2 justify-content-center aling-items-center">
     <div class="my-2 text-white" >
         <p>©Copyrigth 2022</p>
     </div>

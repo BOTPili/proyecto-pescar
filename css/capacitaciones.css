@@ -47,14 +47,15 @@
 .cursos-cards-and-category-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 /* Container del texto de la categoría */
 .cursos-category-container {
   margin-top: 100px;
-  width: 91.5%;
+  width: 100%;
   height: 10%;
   display: flex;
   justify-content: flex-start;
@@ -70,7 +71,6 @@
 }
 /* Container de las cards de cursos */
 .cursos-container {
-
   width: 95%;
   min-height: 500px;
   display: flex;
@@ -166,7 +166,7 @@
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
-@media (min-width:320px) and (max-width:1024px){
+@media (min-width:320px) and (max-width:767px){
     /* Navbar imagen y nombre proyecto */
     .nav-image-project {
       width: 50px;
@@ -213,19 +213,23 @@
 }
 .cursos-category {
   color: white;
-  width: 52%;
+  width: 100%;
+  margin-bottom: 10px;
+  border-bottom: 1px solid violet;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center !important;
 }
 
 .cursos-container {
-  margin-bottom: 300px;
+  justify-content: space-evenly;
+  min-height: 300px;
   flex-direction: column;
 }
 /* Card de la data de cursos*/
 .curso-card {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-bottom: 20px;
   background-color: #813B80;
   width: 90%;
@@ -237,4 +241,121 @@
   flex-direction: column;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.326);
 }
+}
+@media (min-width: 768px) and (max-width:1024px){
+      /* Navbar imagen y nombre proyecto */
+      .nav-image-project {
+        width: 70px;
+      }
+      .nav-name-project {
+        font-size: 20px !important;
+        color: white;
+        margin-top: 10px;
+      }
+      /*  Fin navbar img y name */
+    /* Title capacitaciones */
+  .cursos-title {
+    margin: 0;
+    padding: 0;
+    background-color: #440C4D;
+    font-family: "Roboto", sans-serif;
+    font-size: 55px !important;
+    font-weight: 900 !important;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cursos-title-container p{
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+    width: 100%;
+    font-size: 45px !important;
+    font-weight: 400 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  /* Container cursos y categorías */
+  /* Container cursos y categorías */
+  .cursos-cards-and-category-container {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+  }
+  .cursos-category {
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    border-bottom: 1px solid violet;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center !important;
+  }
+  
+  .cursos-container {
+    width: 38%;
+    min-height: 300px;
+  }
+  /* Card de la data de cursos*/
+  .curso-card {
+    background-color: #813B80;
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.326);
+  }
+}
+@media (min-width:1025px){
+      /* Navbar imagen y nombre proyecto */
+      .nav-image-project {
+        width: 80px;
+      }
+      .nav-name-project {
+        font-size: 25px !important;
+        color: white;
+        margin-top: 10px;
+      }
+      /*  Fin navbar img y name */
+    /* Title capacitaciones */
+  /* Container cursos y categorías */
+  /* Container cursos y categorías */
+  .cursos-container {
+    width: 300px;
+    min-height: 300px;
+  }
+  /* Texto de la categoría de los cursos */
+.cursos-category {
+  color: white;
+  min-width: 30%;
+  display: flex;
+  text-align: center;
+  justify-content: start;
+  margin-left: 5.4rem;
+  align-items: center !important;
+}
+  /* Card de la data de cursos*/
+  .curso-card {
+    background-color: #813B80;
+    width: 100%;
+    height: 420px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.326);
+  }
 }

@@ -30,7 +30,7 @@ const cursos = [
   {
     nombre: "Educación Sexual",
     descripcion:
-      "Materiales, información y propuestas para trabajar en torno a los temas de la Ley N° 26.150 de Educación Sexual Integral en las escuelas y con las familias. ",
+      "Materiales, información y propuestas para trabajar en torno a los temas de la Ley N° 26.150 de Educación Sexual",
     imagen:
       "https://www.unesco.org/sites/default/files/educacionsexualintegral.jpg",
     valoraciones: 4,
@@ -90,7 +90,7 @@ const cursos = [
     nombre: "Creación de mail",
     descripcion: "Aprenderás a como crear un mail",
     imagen:
-      "https://guadalinfoalgarrobo.com/wp-content/uploads/2022/01/ejercicios-practicos-correo-electronico.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgRb7dnvTSkLnQxurNZQ64BG17WaOudFewUw&usqp=CAU",
     valoraciones: 5,
     masVisitado: false,
     category:"adultos mayores"
@@ -127,19 +127,19 @@ const titleFirst = (category) => {
   console.log(category)
   if(contador == 0){
     contador++
-   return `<h3 class="cursos-category">Cursos ${category}</h3> `
+   return `<div class="cursos-category-container"><h3 class="cursos-category">Cursos ${category}</h3></div> `
   } else if (contador == 2){
     contador = -1;
   }
   contador++
-  return ''
+  return ``
 }
 cursos.forEach((i) => {
   card.innerHTML += 
   `
-   <div class="cursos-category-container">
+   
   ${titleFirst(i.category) }
-</div>
+
 <section class="cursos-container">
 <a class="curso-card" href="ingresa.php" style="text-decoration:none;">
 <div class="curso-card-image-container"><img class="curso-card-image" src=${i.imagen} alt=""></div>
@@ -150,7 +150,7 @@ cursos.forEach((i) => {
 <div class="curso-card-stars-container"><img src="https://www.pngall.com/wp-content/uploads/4/5-Star-Rating-PNG-High-Quality-Image.png" alt=""></div>
 <div class="curso-card-visited-container">
    
-${i.masVisitado ? ' <div class="curso-card-visited"><h6 class="curso-card-visited-text">MÁS VISTADO</h6> </div>' : ''}    
+${i.masVisitado ? ' <div class="curso-card-visited"><h6 class="curso-card-visited-text">MÁS VISITADO</h6> </div>' : ''}    
    
 </div>
 </a>
