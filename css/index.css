@@ -216,16 +216,7 @@
   #inicio-container {
     min-height: 400px !important;
   }
-  /* Navbar imagen y nombre proyecto */
-  .nav-image-project {
-    width: 72px;
-  }
-  .nav-name-project {
-    font-size: 18px !important;
-    color: white;
-    margin-top: 10px;
-  }
-  /*  Fin navbar img y name */
+
 
   #inicio-main {
     flex-direction: row;

@@ -167,16 +167,6 @@
     font-family: "Roboto", sans-serif;
 }
 @media (min-width:320px) and (max-width:767px){
-    /* Navbar imagen y nombre proyecto */
-    .nav-image-project {
-      width: 50px;
-    }
-    .nav-name-project {
-      font-size: 14px !important;
-      color: white;
-      margin-top: 10px;
-    }
-    /*  Fin navbar img y name */
   /* Title capacitaciones */
 .cursos-title {
   margin: 0;
@@ -243,16 +233,7 @@
 }
 }
 @media (min-width: 768px) and (max-width:1024px){
-      /* Navbar imagen y nombre proyecto */
-      .nav-image-project {
-        width: 70px;
-      }
-      .nav-name-project {
-        font-size: 20px !important;
-        color: white;
-        margin-top: 10px;
-      }
-      /*  Fin navbar img y name */
+
     /* Title capacitaciones */
   .cursos-title {
     margin: 0;
@@ -319,15 +300,7 @@
   }
 }
 @media (min-width:1025px){
-      /* Navbar imagen y nombre proyecto */
-      .nav-image-project {
-        width: 80px;
-      }
-      .nav-name-project {
-        font-size: 25px !important;
-        color: white;
-        margin-top: 10px;
-      }
+
       /*  Fin navbar img y name */
     /* Title capacitaciones */
   /* Container cursos y categorías */
