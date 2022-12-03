@@ -32,7 +32,7 @@
                         </div>
                         <div class="text-center">
                             <p>Teléfono: +500295772</p> <br>
-                            <p>Email: notedamosbola@gmail.com</p>
+                            <p>Email: ayuda.educart@gmail.com</p>
                         </div>
                     </div>
 

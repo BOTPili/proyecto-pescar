@@ -18,7 +18,7 @@
     <?php include_once 'navs/navbar.php' ?>
     <div id="login" class="container-fluid">
         <div class="row">
-            <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
+            <div class="mt-5 mt-sm-2 mt-md-2 mt-lg-2 d-sm-flex d-flex justify-content-center justify-content-sm-center ">
                 <form style="height:595px ;" class="bg-white col-12 col-sm-4 my-4 px-4 shadow rounded" method="POST">
 
                     <div class="d-sm-flex d-flex justify-content-center justify-content-sm-center ">
