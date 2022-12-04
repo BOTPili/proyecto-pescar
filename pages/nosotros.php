@@ -26,7 +26,7 @@
                 </div>
             </div>
 
-            <div class="carta mx-sm-1 mx-md-3 mx-lg-0 row row-cols-md-7">
+            <div class="carta mx-sm-1 mx-md-2 mx-lg-0 row row-cols-md-7">
             </div>
         </div>
         <?php include_once 'navs/footer.php' ?>

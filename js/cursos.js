@@ -123,8 +123,8 @@ const card = document.querySelector(".cursos-cards-and-category-container");
 let categoryCursos;
 let contador = 0;
 const titleFirst = (category) => {
-  console.log(contador)
-  console.log(category)
+  // console.log(contador)
+  // console.log(category)
   if(contador == 0){
     contador++
    return `<div class="cursos-category-container"><h3 class="cursos-category">Cursos ${category}</h3></div> `
@@ -135,11 +135,8 @@ const titleFirst = (category) => {
   return ``
 }
 cursos.forEach((i) => {
-  card.innerHTML += 
-  `
-   
+  card.innerHTML +=  `
   ${titleFirst(i.category) }
-
 <section class="cursos-container">
 <a class="curso-card" href="ingresa.php" style="text-decoration:none;">
 <div class="curso-card-image-container"><img class="curso-card-image" src=${i.imagen} alt=""></div>
