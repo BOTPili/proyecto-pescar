@@ -68,7 +68,8 @@
 }
 /* Imagen */
 .inicio-imagen {
-  width: 1200px;
+  width: 750px;
+  margin-top: 8.5rem;
 }
 /* Texto inicio-copyrigth */
 .inicio-copyrigth {
@@ -116,8 +117,7 @@
 
 @media (min-width: 320px) and (max-width: 1024px) {
   #inicio-container {
-    /* min-height: 540px !important; */
-    width: 100%;
+    min-height: 540px !important;
   }
   /* Navbar imagen y nombre proyecto */
   .nav-image-project {
@@ -151,10 +151,11 @@
   .inicio-image {
     width: 100%;
     margin-top: 0;
-    height: 200px;
+    height: 330px;
   }
   .inicio-imagen {
-    width: 300px;
+    width: 350px;
+    margin-top: 70px;
   }
   .inicio-copyrigth {
     width: 150px;
@@ -165,13 +166,11 @@
   /* Container redes */
   .inicio-redes-container {
     width: 100%;
-    height: 150px;
+    height: 190px;
     justify-content: space-evenly;
   }
   .inicio-subtitulos {
-    display: flex;
     height: 40%;
-    width: 100%;
   }
   .inicio-subtitle-3 {
     font-size: 22px !important;
@@ -180,10 +179,8 @@
     font-size: 12px !important;
   }
   .inicio-redes {
-    width: 100%;
     height: 10%;
     display: flex;
-    justify-content: space-around;
     align-items: center;
   }
   .inicio-educart-redes {
@@ -194,11 +191,8 @@
   }
   .inicio-redes-title-logo {
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-
-    width: 40%;
   }
   .inicio-redes-social {
     width: 60%;
@@ -212,7 +206,7 @@
 }
 
 /* PC  */
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   #inicio-container {
     min-height: 400px !important;
   }
@@ -243,8 +237,9 @@
     margin-top: 0;
   }
   .inicio-imagen {
-    width: 800px;
+    width: 500px;
     position: absolute;
+    margin-top: 40px;
   }
   .inicio-copyrigth {
     width: 150px;
@@ -263,23 +258,180 @@
     justify-content: flex-end;
   }
   .inicio-subtitulos {
-    display: flex;
     height: 10%;
-    width: 100%;
   }
   .inicio-subtitle-3 {
     font-size: 22px !important;
+  }
+  .inicio-subtitle-5 {
+    font-size: 12px !important;
+  }
+  .inicio-redes {
+    height: 33%;
+    display: flex;
+    align-items: center;
+  }
+  .inicio-educart-redes {
+    font-size: 15px !important;
+  }
+  .inicio-logo {
+    width: 60px;
+  }
+  .inicio-redes-title-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 40%;
+  }
+  .inicio-redes-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .inicio-redes-social a i {
+    width: 32px;
+  }
+}
+@media (min-width:1280px) and (max-width:1659px) {
+  #inicio-container {
+    height: 750px;
+  }
+  /* Container title */
+  .inicio-title-container {
+    height: 580px;
+  }
+  .inicio-title {
+    width: 470px;
+    margin-left: 10px;
+  }
+  /* Fin Container title */
+
+  /* Container logo y copyright */
+  .inicio-image {
+    height: 580px;
+    width: 100%;
+    margin-top: 0;
+  }
+  .inicio-imagen {
+    width: 600px;
+    position: absolute;
+    margin-top: 40px;
+  }
+  .inicio-copyrigth {
+    width: 150px;
+    margin-top: 26.5rem;
+    margin-right: 220px;
+    font-size: 13px !important;
+    position: absolute;
+  }
+  /* Fin container logo y copy */
+
+  /* Container redes */
+  .inicio-redes-container {
+    width: 100%;
+    height: 580px;
+  }
+  .inicio-subtitulos {
+    height: 10%;
+  }
+  .inicio-subtitle-3 {
+    font-size: 34px !important;
+  }
+  .inicio-subtitle-5 {
+    font-size: 12px !important;
+  }
+  .inicio-redes {
+    height: 33%;
+  }
+  .inicio-educart-redes {
+    font-size: 18px !important;
+  }
+  .inicio-logo {
+    width: 60px;
+  }
+  .inicio-redes-title-logo {
+    align-items: center;
+    justify-content: center;
+  }
+  .inicio-redes-social {
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .inicio-redes-social a i {
+    width: 32px;
+  }
+}
+
+
+
+/* Media query pc pili */
+@media (min-width:1660px){
+  #inicio-container {
+    height: 850px;
+  }
+  /* Container title */
+  .inicio-title-container {
+    height: 580px;
+    width: 33.3%;
+  }
+  .inicio-title {
+    font-size: 100px !important;
+    width: 620px;
+    margin-left: 30px;
+  }
+  /* Fin Container title */
+
+  /* Container logo y copyright */
+  .inicio-image {
+    height: 580px;
+    width: 33.3%;
+    margin-top: 100px;
+
+  }
+  .inicio-imagen {
+    width: 800px;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 150px;
+  }
+  .inicio-copyrigth {
+    width: 150px;
+    margin-top: 33rem;
+    margin-right: 300px;
+    font-size: 14px !important;
+    position: absolute;
+  }
+  /* Fin container logo y copy */
+
+  /* Container redes */
+  .inicio-redes-container {
+    width: 33.3%;
+    height: 580px;
+    justify-content: flex-end;
+  }
+  .inicio-subtitulos {
+    display: flex;
+    height: 14%;
+    width: 100%;
+  }
+  .inicio-subtitle-3 {
+    font-size: 40px !important;
     font-family: "Roboto", sans-serif;
     color: white;
   }
   .inicio-subtitle-5 {
-    font-size: 12px !important;
+    font-size: 14.5px !important;
     font-family: "Roboto", sans-serif;
     color: white;
   }
   .inicio-redes {
     width: 100%;
-    height: 33%;
+    height: 15%;
     display: flex;
     justify-content: space-around;
     align-items: center;

@@ -40,6 +40,7 @@
                 <div class="foro-questions-container"></div>
 
         </div>
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
         <?php include_once 'navs/footer.php' ?>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
