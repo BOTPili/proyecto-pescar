@@ -27,7 +27,7 @@
       </section>
       <section class="inicio-image">
         <aside class="inicio-container-imagen">
-          <img class="inicio-imagen" src="../Recursos/Imagen de inicio.png">
+          <img class="inicio-imagen" src="../Recursos/Imagen-de-inicio.png">
         </aside>
         <h6 class="inicio-copyrigth">©Copyrigth 2022</h6>
       </section>
